@@ -19,13 +19,18 @@ Objetivo 2- esconder o botão de mostrar mais
 const botaoMostrarProjetos = document.querySelector('.btn-mostrar-projetos');
 const projetosInativos = document.querySelectorAll('.projeto:not(.ativo)');
 
-botaoMostrarProjetos.addEventListener('clik', () => {
+botaoMostrarProjetos.addEventListener('click', () => {
     //Passo 3 - adicionar a classe "ativo" nos projetos escondidos 
+    mostrarMaisProjetos(); 
+    esconderBotao();
+});
+function esconderBotao() {
+    botaoMostrarProjetos.classList.add("remover");
+}
+
+function mostrarMaisProjetos() {
     projetosInativos.forEach(projetosInativo => {
         projetosInativo.classList.add('ativo');
     });
+}
 
-    //Objetivo 2- esconder o botão de mostrar mais 
-    //  Passo 1 - pega o botão e esconder ele  
-    botaoMostrarProjetos.classList.add("remover");
-});
