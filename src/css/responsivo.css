@@ -2,6 +2,7 @@
     
     .cabecalho{
        padding: 30px;
+       
     }
     
     .home{
@@ -12,7 +13,7 @@
 
     }
     
-    .home .informcoes{
+    .home .informacoes{
         max-width: 100%;
         text-align: center;
         align-items: center;
@@ -27,11 +28,10 @@
 
 }
 
-
 @media(max-width: 425px){
 
     .home .informacoes h1{
-        font-size: 330px;
+        font-size: 30px;
     
     }
 
