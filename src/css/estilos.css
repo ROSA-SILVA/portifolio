@@ -118,15 +118,14 @@ body{
     border-radius: 50%;
 }
 
-.home .foto.sombra-interna{
-    background: linear-gradient(to right ,#8A35C8 ,#18C063,#00EEA2);
+.home .foto.sombra-interna {
+    background: linear-gradient(to right ,#8A35c8 ,#18c063,#61d7b2);
 }
 
 .projetos{
     padding: 70px 0  70px;
 
 }
-
 
 .projetos .titulo{
     text-align: center;
@@ -136,7 +135,6 @@ body{
     text-transform: uppercase;
 
 }
-
 .projetos .container-projetos{
     display: flex;
     gap: 20px;
